@@ -10,6 +10,9 @@ class student extends Human{
     public void study(){
         System.out.println("I am studying BSc. in " + this.major);
     }
+    public void status(){
+        System.out.println("Learner");
+    }
 }
 public class problem1 {
     public static void main(String[] args) {
@@ -20,5 +23,6 @@ public class problem1 {
         s1.major = "CSE";
         s1.person();
         s1.study();
+        s1.status();
     }
 }
